@@ -1,0 +1,33 @@
+[project]
+name = "smarthirex"
+version = "0"
+requires-python = "==3.12.*"
+dependencies = [
+    "backoff>=2.2.1",
+    "dvclive>=3.49.0",
+    "hypothesis>=6.148.7",
+    "ipywidgets>=8.1.8",
+    "itables>=2.5.2",
+    "matplotlib>=3.10.7",
+    "numpy<2.3",
+    "openai>=2.8.1",
+    "polars>=1.35.2",
+    "pytest>=9.0.1",
+    "python-dotenv>=1.2.1",
+    "seaborn>=0.13.2",
+    "dvc[s3,ssh]",
+    "ipykernel",
+    "boto3<1.36.0",
+    "scikit-learn>=1.8.0",
+    "chainlit>=2.9.6",
+    "reportlab>=4.4.10",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+filterwarnings = [
+    "ignore:.*pynvml package is deprecated.*:FutureWarning"
+]
+pythonpath = [
+  "."
+]

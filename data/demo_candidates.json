@@ -1,0 +1,65 @@
+[
+  {
+    "profile": "Hidden Gem",
+    "candidate": {
+      "name": "Ananya",
+      "education": "Tier-3 B.Sc Computer Science",
+      "skills": ["Python", "System Design", "Algorithms"],
+      "projects": [
+        "Built distributed rate limiter in Python",
+        "Optimized graph traversal engine for route planning"
+      ]
+    },
+    "artifacts": [
+      "Implemented lock-free queue benchmark and published notes",
+      "Built end-to-end observability dashboard for personal projects",
+      "Wrote deep-dive blog on memory optimization in Python"
+    ],
+    "activity": {
+      "commits_per_week": 14,
+      "projects_completed": 6,
+      "open_source_contributions": 3
+    }
+  },
+  {
+    "profile": "Overrated Candidate",
+    "candidate": {
+      "name": "Rohan",
+      "education": "Top-tier B.Tech CSE",
+      "skills": ["Python", "Machine Learning", "Cloud"],
+      "projects": [
+        "Academic sentiment analyzer",
+        "Simple CRUD internal dashboard"
+      ]
+    },
+    "artifacts": [
+      "Short tutorial copied from framework docs"
+    ],
+    "activity": {
+      "commits_per_week": 2,
+      "projects_completed": 1,
+      "open_source_contributions": 0
+    }
+  },
+  {
+    "profile": "Balanced Candidate",
+    "candidate": {
+      "name": "Maya",
+      "education": "B.Tech Information Technology",
+      "skills": ["Python", "Data Structures", "APIs", "Testing"],
+      "projects": [
+        "Built JWT-based hiring API service",
+        "Created analytics pipeline for interview feedback"
+      ]
+    },
+    "artifacts": [
+      "Implemented LRU cache from scratch",
+      "Wrote architecture note for interview event pipeline"
+    ],
+    "activity": {
+      "commits_per_week": 8,
+      "projects_completed": 4,
+      "open_source_contributions": 1
+    }
+  }
+]

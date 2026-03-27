@@ -1,0 +1,14 @@
+.dvc/config.local
+.venv/
+venv/
+__pycache__/
+.env
+.pytest_cache/
+.llm_response_cache.sqlite
+.hf/
+.triton/
+.cache/
+.hypothesis/
+
+.chainlit/
+!.chainlit/config.toml

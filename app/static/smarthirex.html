@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SmartHireX Runner</title>
+  <style>
+    :root {
+      --bg: #f5efe7;
+      --ink: #1f1f1f;
+      --panel: #fffaf3;
+      --accent: #c6532f;
+      --accent-2: #2f5e7a;
+      --line: #dccbb5;
+    }
+    body {
+      margin: 0;
+      font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+      background: radial-gradient(circle at 20% 20%, #fff6e9, var(--bg));
+      color: var(--ink);
+    }
+    .wrap {
+      max-width: 1000px;
+      margin: 24px auto;
+      padding: 16px;
+    }
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      box-shadow: 0 14px 34px rgba(23, 17, 11, 0.08);
+      padding: 18px;
+      margin-bottom: 16px;
+    }
+    h1 { margin: 0 0 10px; color: var(--accent-2); }
+    textarea {
+      width: 100%;
+      min-height: 220px;
+      border-radius: 10px;
+      border: 1px solid var(--line);
+      padding: 10px;
+      resize: vertical;
+      font-family: "Consolas", monospace;
+      background: #fff;
+    }
+    button {
+      border: none;
+      border-radius: 999px;
+      background: var(--accent);
+      color: #fff;
+      padding: 10px 16px;
+      cursor: pointer;
+      font-weight: 700;
+      margin-top: 10px;
+    }
+    .result {
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: 12px;
+      min-height: 120px;
+    }
+    .decision-title {
+      margin: 0;
+      font-size: 2rem;
+      letter-spacing: 0.02em;
+    }
+    .section-label {
+      margin: 14px 0 6px;
+      font-weight: 700;
+    }
+    .bullet-list {
+      margin: 0;
+      padding-left: 20px;
+    }
+    .score-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 6px 14px;
+    }
+    .highlight-banner {
+      margin-top: 12px;
+      padding: 10px 12px;
+      border-radius: 8px;
+      background: #e9f8e8;
+      border: 1px solid #9ad59a;
+      color: #1b6b1b;
+      font-weight: 700;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <h1>SmartHireX Autonomous Hiring</h1>
+      <p>Paste a candidate payload and run the full SmartHireX pipeline with one click.</p>
+      <textarea id="payload">{
+  "candidate": {
+    "name": "Ravi Kumar",
+    "education": "Tier-3 College",
+    "years_experience": 1,
+    "resume_score": 4,
+    "projects": [
+      "Built a custom database engine in C",
+      "Implemented distributed caching system",
+      "Created competitive coding toolkit"
+    ],
+    "activity": {
+      "commits_per_week": 18,
+      "consistency": 9
+    },
+    "communication_hint": "average",
+    "github_url": "https://github.com/torvalds"
+  },
+  "config": {
+    "seed": 42
+  }
+}</textarea>
+      <button onclick="runPipeline()">Run /run-smarthirex-pipeline</button>
+    </div>
+    <div class="card">
+      <h3>Result</h3>
+      <div id="result" class="result">Waiting for execution...</div>
+    </div>
+  </div>
+
+  <script>
+    function toTitle(text) {
+      return String(text || "")
+        .replace(/_/g, " ")
+        .replace(/\b\w/g, (m) => m.toUpperCase());
+    }
+
+    function escapeHtml(text) {
+      return String(text)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/\"/g, "&quot;")
+        .replace(/'/g, "&#039;");
+    }
+
+    function getColor(decision) {
+      const d = String(decision || "").toLowerCase();
+      if (d.includes("strong")) return "#1f7a1f";
+      if (d.includes("hire")) return "#2f5e7a";
+      if (d.includes("hold")) return "#c47c00";
+      return "#b42323";
+    }
+
+    function renderResult(data, payload) {
+      const decision = String(data.final_decision || "hold");
+      const confidence = (Number(data.confidence_score || 0) * 100).toFixed(1) + "%";
+      const scores = data.talent_scores || {};
+      const interview = data.interview_report || {};
+      const stakeholders = data.stakeholder_decisions || {};
+      const reasoning = Array.isArray(data.reasoning) ? data.reasoning : [];
+
+      const resumeScore = Number(payload?.candidate?.resume_score ?? 10);
+      const hiddenTalent = resumeScore <= 5 && (decision === "strong_hire" || Number(data.confidence_score || 0) >= 0.85);
+
+      const reasoningHtml = reasoning.length
+        ? reasoning.map((r) => `<li>${escapeHtml(r)}</li>`).join("")
+        : "<li>No detailed reasoning returned.</li>";
+
+      return `
+        <p class="section-label">FINAL DECISION</p>
+        <h2 class="decision-title" style="color:${getColor(decision)}">${escapeHtml(toTitle(decision))}</h2>
+
+        <p class="section-label">CONFIDENCE</p>
+        <p><b>Confidence:</b> ${confidence}</p>
+
+        <p class="section-label">TALENT SCORES</p>
+        <div class="score-grid">
+          <p><b>Skill:</b> ${escapeHtml(scores.skill ?? "-")}</p>
+          <p><b>Initiative:</b> ${escapeHtml(scores.initiative ?? "-")}</p>
+          <p><b>Consistency:</b> ${escapeHtml(scores.consistency ?? "-")}</p>
+          <p><b>Communication:</b> ${escapeHtml(scores.communication ?? "-")}</p>
+        </div>
+
+        <p class="section-label">INTERVIEW SUMMARY</p>
+        <ul class="bullet-list">
+          <li>Turns: ${escapeHtml(interview.turns ?? "-")}</li>
+          <li>Difficulty reached: ${escapeHtml(toTitle(interview.final_difficulty ?? "-"))}</li>
+          <li>Trend: ${escapeHtml(toTitle(interview.confidence_trend ?? "-"))}</li>
+        </ul>
+
+        <p class="section-label">STAKEHOLDER DECISIONS</p>
+        <ul class="bullet-list">
+          <li>Recruiter: ${escapeHtml(toTitle(stakeholders.recruiter ?? "-"))}</li>
+          <li>Tech Lead: ${escapeHtml(toTitle(stakeholders.tech_lead ?? "-"))}</li>
+          <li>Hiring Manager: ${escapeHtml(toTitle(stakeholders.hiring_manager ?? "-"))}</li>
+        </ul>
+
+        <p class="section-label">REASONING</p>
+        <ul class="bullet-list">${reasoningHtml}</ul>
+
+        ${hiddenTalent ? '<div class="highlight-banner">🚀 Hidden Talent Detected</div>' : ''}
+      `;
+    }
+
+    async function runPipeline() {
+      const output = document.getElementById('result');
+      output.textContent = '[SmartHireX] Running autonomous pipeline...';
+      try {
+        const payload = JSON.parse(document.getElementById('payload').value);
+        const res = await fetch('/run-smarthirex-pipeline', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload),
+        });
+        const data = await res.json();
+        if (!res.ok) {
+          throw new Error(data?.detail || JSON.stringify(data));
+        }
+        output.innerHTML = renderResult(data, payload);
+      } catch (err) {
+        output.textContent = 'Error: ' + err.message;
+      }
+    }
+  </script>
+</body>
+</html>
