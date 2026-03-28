@@ -1,0 +1,231 @@
+{
+  "candidate_info": {
+    "name": "Harish Kotra",
+    "education": "BTECH",
+    "experience_years": 15.0,
+    "summary": "Seasoned developer (15 yrs) with a large public footprint (258 repos, 86 followers) but a single, cryptic project description and no recent code commits. Strong evidence of breadth (TypeScript, JavaScript, Python, HTML) and consistent activity (35 pushes in 30 days), yet limited insight into actual work quality or communication clarity."
+  },
+  "github_signals": {
+    "github_username": "harishkotra",
+    "repo_count": 258,
+    "languages": [
+      "TypeScript",
+      "JavaScript",
+      "Python",
+      "HTML"
+    ],
+    "recent_commits_30d": 0,
+    "push_events_30d": 35,
+    "followers": 86,
+    "public_gists": 25
+  },
+  "interview_transcript": [
+    {
+      "question": "You have 258 public repositories but only one cryptic project description in your r\u00e9sum\u00e9. Pick one repo you believe best represents your engineering depth and explain\u2014in 3\u20134 sentences\u2014what problem it solves, the key design trade-offs you made, and why someone evaluating your work should care about it.",
+      "focus_area": "communication & project clarity",
+      "answer": "dont know",
+      "evaluation": {
+        "depth": 0.0,
+        "clarity": 0.0,
+        "confidence": 0.0,
+        "follow_up_needed": true,
+        "recommended_focus": "Communication & technical storytelling",
+        "evaluation_notes": [
+          "Answer is a single dismissive phrase with zero substance",
+          "Fails to identify any repository or describe its purpose",
+          "Provides no insight into design decisions or trade-offs",
+          "Indicates either lack of preparation or inability to articulate technical work",
+          "Contrasts sharply with extensive GitHub footprint, suggesting poor communication skills"
+        ]
+      }
+    },
+    {
+      "question": "Your GitHub shows 35 push events in the last 30 days but zero commits. Walk me through the most recent push: what triggered it, which repository it touched, and the exact sequence of Git commands or CI steps you used to produce that push without creating a commit.",
+      "focus_area": "DevOps & Git internals",
+      "answer": "git hub reost",
+      "evaluation": {
+        "depth": 0.0,
+        "clarity": 0.0,
+        "confidence": 0.0,
+        "follow_up_needed": true,
+        "recommended_focus": "Communication & technical storytelling",
+        "evaluation_notes": [
+          "Answer is a meaningless fragment that does not address the question",
+          "No explanation of push trigger, repository, or CI/Git steps",
+          "Shows inability to articulate even basic Git workflow",
+          "Reinforces earlier pattern of cryptic, unhelpful responses",
+          "Suggests either poor communication or lack of genuine involvement in recent GitHub activity"
+        ]
+      }
+    },
+    {
+      "question": "Imagine I\u2019m a new contributor to one of your 258 repositories. Give me the exact commands I would run\u2014starting from a fresh clone\u2014to get the project running locally, and then describe the single most important file or directory I should read first to understand the codebase\u2019s architecture. Use plain English; no one-word answers.",
+      "focus_area": "communication & onboarding clarity",
+      "answer": "dont know",
+      "evaluation": {
+        "depth": 0.0,
+        "clarity": 0.0,
+        "confidence": 0.0,
+        "follow_up_needed": true,
+        "recommended_focus": "Communication & technical storytelling",
+        "evaluation_notes": [
+          "Answer is a single dismissive phrase with zero substance",
+          "Fails to provide any commands or guidance for local setup",
+          "Does not identify the key file or directory to read first",
+          "Indicates either lack of preparation or inability to articulate technical work",
+          "Contrasts sharply with extensive GitHub footprint, suggesting poor communication skills"
+        ]
+      }
+    },
+    {
+      "question": "You have 258 repositories and 15 years of experience, yet every answer so far has been a single dismissive phrase. Choose any one repository\u2014no justification needed\u2014and in at least three complete sentences, describe what the code inside it does, why you originally created it, and what you learned from building it. If you genuinely cannot remember any of your own projects, say so explicitly and explain how that is possible.",
+      "focus_area": "communication & accountability",
+      "answer": "dont know",
+      "evaluation": {
+        "depth": 0.0,
+        "clarity": 0.0,
+        "confidence": 0.0,
+        "follow_up_needed": true,
+        "recommended_focus": "Communication & technical storytelling",
+        "evaluation_notes": [
+          "Answer is a single dismissive phrase with zero substance",
+          "Fails to identify any repository or describe its purpose",
+          "Provides no insight into design decisions or trade-offs",
+          "Indicates either lack of preparation or inability to articulate technical work",
+          "Contrasts sharply with extensive GitHub footprint, suggesting poor communication skills"
+        ]
+      }
+    },
+    {
+      "question": "You have 258 repositories and 15 years of experience, yet every answer so far has been a single dismissive phrase. Choose any one repository\u2014no justification needed\u2014and in at least three complete sentences, describe what the code inside it does, why you originally created it, and what you learned from building it. If you genuinely cannot remember any of your own projects, say so explicitly and explain how that is possible.",
+      "focus_area": "communication & accountability",
+      "answer": "dont know",
+      "evaluation": {
+        "depth": 0.0,
+        "clarity": 0.0,
+        "confidence": 0.0,
+        "follow_up_needed": true,
+        "recommended_focus": "Communication & technical storytelling",
+        "evaluation_notes": [
+          "Answer is a single dismissive phrase with zero substance",
+          "Fails to identify any repository or describe its purpose",
+          "Provides no insight into design decisions or trade-offs",
+          "Indicates either lack of preparation or inability to articulate technical work",
+          "Contrasts sharply with extensive GitHub footprint, suggesting poor communication skills"
+        ]
+      }
+    }
+  ],
+  "interview_summary": {
+    "avg_depth": 0.0,
+    "avg_clarity": 0.0,
+    "avg_confidence": 0.0,
+    "question_count": 5
+  },
+  "ai_summary": {
+    "executive_summary": "Harish Kotra presents a 15-year tenure and an unusually large GitHub footprint (258 repos, 86 followers, 35 pushes in 30 days), but the interview revealed an inability to articulate any aspect of his own work. Every question\u2014ranging from basic onboarding to advanced Git internals\u2014was answered with a single dismissive phrase (\u201cdon\u2019t know\u201d), yielding zero technical depth, clarity, or confidence. The stark gap between prolific public activity and complete communication failure raises serious doubts about actual contribution quality, mentorship potential, and team collaboration fit.",
+    "recommendation_reasoning": [
+      "Candidate could not describe a single repository, design decision, or learning outcome despite 15 years of experience.",
+      "All five interview answers were one-word dismissals, indicating either unwillingness or inability to communicate technical work.",
+      "Zero evidence of problem-solving quality, documentation habits, or ability to onboard or mentor teammates.",
+      "GitHub automation (35 pushes, 0 commits) remains unexplained, undermining trust in the authenticity of the public footprint.",
+      "Communication score of 30 and interview performance both confirm severe deficits in verbal and written articulation."
+    ],
+    "key_strengths": [
+      "Large public repository count (258) spanning TypeScript, JavaScript, Python, and HTML suggests broad technical exposure.",
+      "Consistent GitHub automation activity (35 push events in 30 days) hints at DevOps or CI/CD familiarity.",
+      "Long tenure (15 years) and 86 followers indicate sustained presence in the open-source community."
+    ],
+    "key_risks": [
+      "Cannot communicate technical decisions, making code reviews, design discussions, and mentoring impossible.",
+      "High risk of producing opaque, undocumented code that impedes team velocity and knowledge transfer.",
+      "Potential misalignment between extensive GitHub footprint and actual hands-on contribution or quality.",
+      "Likely cultural misfit in collaborative environments requiring clear documentation and stakeholder communication.",
+      "May require extensive coaching on basic communication before any engineering value can be realized."
+    ]
+  },
+  "agent_decisions": {
+    "tech_lead": {
+      "score": 0.15,
+      "weight": 0.45,
+      "reasoning": [
+        "GitHub footprint (258 repos, 86 followers) shows breadth and long-term activity, but zero interview answers contained any technical substance.",
+        "All five interview questions\u2014ranging from basic onboarding to advanced Git internals\u2014were met with the single phrase \"dont know\", demonstrating an inability or unwillingness to articulate any aspect of his own work.",
+        "Despite 15 years of experience and a large public codebase, the candidate could not describe a single repository, provide setup instructions, or explain recent push activity, undermining any claim of engineering depth.",
+        "Communication score of 30 already flagged poor documentation; the interview confirms near-zero verbal communication skills, which are critical for a tech-lead role.",
+        "No evidence was offered of problem-solving quality, design trade-offs, or project complexity beyond raw repo counts."
+      ],
+      "strengths": [
+        "Large volume of public repositories suggests prolific coding habit.",
+        "Multi-language exposure (TypeScript, JavaScript, Python, HTML) indicates versatility.",
+        "Consistent GitHub automation (35 pushes in 30 days) hints at DevOps familiarity."
+      ],
+      "risks": [
+        "Cannot communicate technical decisions or mentor teammates.",
+        "Likely to produce opaque, undocumented code that impedes team velocity.",
+        "May misrepresent actual contribution level\u2014extensive GitHub activity does not translate into explained or understandable work.",
+        "Risk of onboarding friction: new contributors would receive no guidance.",
+        "Potential cultural misfit in collaborative engineering environments."
+      ]
+    },
+    "hr": {
+      "score": 0.05,
+      "weight": 0.2,
+      "reasoning": [
+        "Every response was a single dismissive phrase (\u201cdont know\u201d), showing zero communication clarity.",
+        "No evidence of confidence; answers were delivered without elaboration or ownership.",
+        "Repeated inability to describe own repositories signals poor collaboration potential\u2014onboarding a new teammate would be impossible.",
+        "Structured articulation completely absent; candidate failed to provide even one coherent sentence across five questions."
+      ],
+      "strengths": [
+        "Large public GitHub presence (258 repos, 86 followers) suggests broad exposure to multiple languages and tooling.",
+        "Consistent automation activity (35 pushes in 30 days) implies familiarity with CI/CD workflows."
+      ],
+      "risks": [
+        "Cannot articulate technical work, making code reviews, design discussions, and mentoring untenable.",
+        "Likely to frustrate teammates and stakeholders who rely on clear explanations.",
+        "Risk of misrepresenting actual contribution level\u2014extensive GitHub footprint may not reflect personal involvement or quality.",
+        "May require extensive coaching on basic communication before any engineering value can be realized."
+      ]
+    },
+    "manager": {
+      "score": 0.05,
+      "weight": 0.35,
+      "reasoning": [
+        "Candidate repeatedly answered \u201cdont know\u201d to every question, showing zero ownership of his own 258 repositories.",
+        "Unable to articulate any problem solved, design trade-off, or learning outcome from 15 years of work.",
+        "No evidence of converting plans into outcomes\u2014no concrete examples, no measurable impact, no clear deliverables.",
+        "Dismissive, one-word responses indicate either unwillingness or inability to communicate under pressure.",
+        "GitHub activity (35 pushes, 0 commits) remains unexplained; candidate could not describe the automation or workflow behind it."
+      ],
+      "strengths": [
+        "Large public repository count suggests exposure to multiple technologies and open-source workflows.",
+        "Some form of automation or CI/CD activity is occurring (35 pushes in 30 days).",
+        "Long tenure (15 years) implies persistence in the field, even if specifics are undocumented."
+      ],
+      "risks": [
+        "High risk of poor communication with stakeholders and team members.",
+        "Likely inability to document or transfer knowledge, leading to single-point-of-failure scenarios.",
+        "Potential misalignment between public GitHub footprint and actual hands-on contribution; may not be able to deliver on complex tasks.",
+        "Could undermine team morale and project clarity through opaque or evasive interactions."
+      ]
+    }
+  },
+  "aggregator": {
+    "weights": {
+      "tech_lead": 0.45,
+      "hr": 0.2,
+      "manager": 0.35
+    },
+    "formula": "weighted_average(tech_lead, hr, manager)"
+  },
+  "final_score": 0.095,
+  "final_priority": "LOW",
+  "reasoning": [
+    "Candidate could not describe a single repository, design decision, or learning outcome despite 15 years of experience.",
+    "All five interview answers were one-word dismissals, indicating either unwillingness or inability to communicate technical work.",
+    "Zero evidence of problem-solving quality, documentation habits, or ability to onboard or mentor teammates.",
+    "GitHub automation (35 pushes, 0 commits) remains unexplained, undermining trust in the authenticity of the public footprint.",
+    "Communication score of 30 and interview performance both confirm severe deficits in verbal and written articulation."
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "candidate_info": {
+    "name": "RateLimit Safe Test",
+    "education": "B.Tech CSE",
+    "experience_years": 2.0,
+    "summary": "Candidate with 2 years of experience in Python and API development"
+  },
+  "github_signals": {
+    "github_username": "pallets",
+    "repo_count": 17,
+    "languages": [
+      "Python",
+      "HTML",
+      "CSS"
+    ],
+    "recent_commits_30d": 0,
+    "push_events_30d": 0,
+    "followers": 2244,
+    "public_gists": 0
+  },
+  "interview_transcript": [
+    {
+      "question": "Write a Python function to deduplicate a list while preserving order, and explain complexity.",
+      "focus_area": "Python fundamentals",
+      "answer": "I would solve this in Python with clear contracts, edge-case handling, complexity analysis, and tests using pytest.",
+      "evaluation": {
+        "depth": 0.57,
+        "clarity": 0.45,
+        "confidence": 0.552,
+        "follow_up_needed": true,
+        "recommended_focus": "python problem solving",
+        "evaluation_notes": [
+          "Fallback evaluator used due to temporary LLM provider limit.",
+          "Scoring based on answer completeness, technical keywords, and structure."
+        ]
+      }
+    },
+    {
+      "question": "Given a stream of integers, design a Python approach to return top-k frequent items efficiently.",
+      "focus_area": "Data structures",
+      "answer": "I would solve this in Python with clear contracts, edge-case handling, complexity analysis, and tests using pytest.",
+      "evaluation": {
+        "depth": 0.57,
+        "clarity": 0.45,
+        "confidence": 0.552,
+        "follow_up_needed": true,
+        "recommended_focus": "python problem solving",
+        "evaluation_notes": [
+          "Fallback evaluator used due to temporary LLM provider limit.",
+          "Scoring based on answer completeness, technical keywords, and structure."
+        ]
+      }
+    },
+    {
+      "question": "In FastAPI, how would you design an idempotent endpoint for creating resources? Include error handling.",
+      "focus_area": "API design",
+      "answer": "I would solve this in Python with clear contracts, edge-case handling, complexity analysis, and tests using pytest.",
+      "evaluation": {
+        "depth": 0.57,
+        "clarity": 0.45,
+        "confidence": 0.552,
+        "follow_up_needed": true,
+        "recommended_focus": "python problem solving",
+        "evaluation_notes": [
+          "Fallback evaluator used due to temporary LLM provider limit.",
+          "Scoring based on answer completeness, technical keywords, and structure."
+        ]
+      }
+    },
+    {
+      "question": "How would you test async Python code with pytest for retries, timeouts, and external API failures?",
+      "focus_area": "Testing",
+      "answer": "In Python I explain constraints, pick optimal data structures, handle edge cases, discuss Big-O, and add tests for success and failure paths.",
+      "evaluation": {
+        "depth": 0.557,
+        "clarity": 0.478,
+        "confidence": 0.455,
+        "follow_up_needed": true,
+        "recommended_focus": "python problem solving",
+        "evaluation_notes": [
+          "Fallback evaluator used due to temporary LLM provider limit.",
+          "Scoring based on answer completeness, technical keywords, and structure."
+        ]
+      }
+    },
+    {
+      "question": "Design a Python worker pipeline for queue-based processing with observability and dead-letter handling.",
+      "focus_area": "System thinking",
+      "answer": "In Python I explain constraints, pick optimal data structures, handle edge cases, discuss Big-O, and add tests for success and failure paths.",
+      "evaluation": {
+        "depth": 0.557,
+        "clarity": 0.478,
+        "confidence": 0.455,
+        "follow_up_needed": true,
+        "recommended_focus": "python problem solving",
+        "evaluation_notes": [
+          "Fallback evaluator used due to temporary LLM provider limit.",
+          "Scoring based on answer completeness, technical keywords, and structure."
+        ]
+      }
+    }
+  ],
+  "interview_summary": {
+    "avg_depth": 0.565,
+    "avg_clarity": 0.461,
+    "avg_confidence": 0.513,
+    "question_count": 5
+  },
+  "ai_summary": {
+    "executive_summary": "Candidate evaluation completed with fallback summarization mode. Final panel priority is MEDIUM at 66 out of 100.",
+    "recommendation_reasoning": [
+      "Interview evidence and extracted signals were combined successfully.",
+      "Fallback summarization was used due to temporary provider limits."
+    ],
+    "key_strengths": [
+      "Consistent pipeline completion despite external API throttling."
+    ],
+    "key_risks": [
+      "Natural-language analysis depth may be reduced while provider is rate-limited."
+    ]
+  },
+  "agent_decisions": {
+    "tech_lead": {
+      "score": 0.691,
+      "weight": 0.45,
+      "reasoning": [
+        "Fallback decision path used due to temporary LLM provider limit.",
+        "Combined interview quality and extracted signals for tech_lead perspective."
+      ],
+      "strengths": [
+        "Pipeline remained functional with deterministic evaluation fallback."
+      ],
+      "risks": [
+        "External model unavailable during scoring window."
+      ]
+    },
+    "hr": {
+      "score": 0.602,
+      "weight": 0.2,
+      "reasoning": [
+        "Fallback decision path used due to temporary LLM provider limit.",
+        "Combined interview quality and extracted signals for hr perspective."
+      ],
+      "strengths": [
+        "Pipeline remained functional with deterministic evaluation fallback."
+      ],
+      "risks": [
+        "External model unavailable during scoring window."
+      ]
+    },
+    "manager": {
+      "score": 0.644,
+      "weight": 0.35,
+      "reasoning": [
+        "Fallback decision path used due to temporary LLM provider limit.",
+        "Combined interview quality and extracted signals for manager perspective."
+      ],
+      "strengths": [
+        "Pipeline remained functional with deterministic evaluation fallback."
+      ],
+      "risks": [
+        "External model unavailable during scoring window."
+      ]
+    }
+  },
+  "aggregator": {
+    "weights": {
+      "tech_lead": 0.45,
+      "hr": 0.2,
+      "manager": 0.35
+    },
+    "formula": "weighted_average(tech_lead, hr, manager)"
+  },
+  "final_score": 0.6567,
+  "final_priority": "MEDIUM",
+  "reasoning": [
+    "Interview evidence and extracted signals were combined successfully.",
+    "Fallback summarization was used due to temporary provider limits."
+  ]
+}

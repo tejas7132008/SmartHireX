@@ -1,0 +1,205 @@
+{
+  "candidate_info": {
+    "name": "Gadadasu Kali Tejas",
+    "education": "btech",
+    "experience_years": 0.0,
+    "summary": "Entry-level candidate with limited experience and project portfolio"
+  },
+  "github_signals": {
+    "github_username": "tejas7132008",
+    "repo_count": 1,
+    "languages": [
+      "Python"
+    ],
+    "recent_commits_30d": 0,
+    "push_events_30d": 3,
+    "followers": 0,
+    "public_gists": 0
+  },
+  "interview_transcript": [
+    {
+      "question": "Write a Python function to reverse a given string, and explain the time complexity of your solution.",
+      "focus_area": "Programming fundamentals",
+      "answer": "string(concat)",
+      "evaluation": {
+        "depth": 0.0,
+        "clarity": 0.0,
+        "confidence": 0.0,
+        "follow_up_needed": true,
+        "recommended_focus": "problem-solving skills",
+        "evaluation_notes": [
+          "The answer does not provide a clear Python function to reverse a string.",
+          "The answer lacks explanation of time complexity.",
+          "The candidate's response seems incomplete and unclear."
+        ]
+      }
+    },
+    {
+      "question": "Given a list of integers, write a Python function to find the maximum element in the list and explain how you would handle an empty list.",
+      "focus_area": "Problem-solving skills",
+      "answer": "idk",
+      "evaluation": {
+        "depth": 0.0,
+        "clarity": 0.0,
+        "confidence": 0.0,
+        "follow_up_needed": true,
+        "recommended_focus": "problem-solving skills",
+        "evaluation_notes": [
+          "The answer does not provide a clear Python function to find the maximum element in the list.",
+          "The answer lacks explanation of how to handle an empty list.",
+          "The candidate's response seems incomplete and unclear."
+        ]
+      }
+    },
+    {
+      "question": "Consider a dictionary in Python where keys are names of students and values are their respective ages. Write a Python function to find the name of the oldest student and explain how you would handle the case when there are multiple students with the same maximum age.",
+      "focus_area": "Data structures and algorithms",
+      "answer": "i dont know",
+      "evaluation": {
+        "depth": 0.0,
+        "clarity": 0.0,
+        "confidence": 0.0,
+        "follow_up_needed": true,
+        "recommended_focus": "problem-solving skills",
+        "evaluation_notes": [
+          "The answer does not provide a clear Python function to find the oldest student.",
+          "The answer lacks explanation of how to handle multiple students with the same maximum age.",
+          "The candidate's response seems incomplete and unclear."
+        ]
+      }
+    },
+    {
+      "question": "Write a Python function to check if a given string is a palindrome, ignoring case sensitivity and non-alphanumeric characters. Provide an example use case for your function.",
+      "focus_area": "Programming fundamentals",
+      "answer": "palindrome",
+      "evaluation": {
+        "depth": 0.0,
+        "clarity": 0.0,
+        "confidence": 0.0,
+        "follow_up_needed": true,
+        "recommended_focus": "problem-solving skills",
+        "evaluation_notes": [
+          "The answer does not provide a clear Python function to check if a given string is a palindrome.",
+          "The answer lacks explanation of how to ignore case sensitivity and non-alphanumeric characters.",
+          "The candidate's response seems incomplete and unclear."
+        ]
+      }
+    },
+    {
+      "question": "Given a list of numbers, write a Python function to calculate the average of the numbers in the list, handling the case when the list is empty. Provide a step-by-step explanation of your solution.",
+      "focus_area": "Programming fundamentals",
+      "answer": "i dont know",
+      "evaluation": {
+        "depth": 0.0,
+        "clarity": 0.0,
+        "confidence": 0.0,
+        "follow_up_needed": true,
+        "recommended_focus": "problem-solving skills",
+        "evaluation_notes": [
+          "The answer does not provide a clear Python function to calculate the average of the numbers in the list.",
+          "The answer lacks explanation of how to handle the case when the list is empty.",
+          "The candidate's response seems incomplete and unclear.",
+          "The candidate has consistently struggled with providing clear and complete solutions to basic programming problems."
+        ]
+      }
+    }
+  ],
+  "interview_summary": {
+    "avg_depth": 0.0,
+    "avg_clarity": 0.0,
+    "avg_confidence": 0.0,
+    "question_count": 5
+  },
+  "ai_summary": {
+    "executive_summary": "The candidate, Gadadasu Kali Tejas, is an entry-level candidate with limited experience and project portfolio, lacking clear and complete solutions to basic programming problems.",
+    "recommendation_reasoning": [
+      "The candidate has limited experience and project portfolio.",
+      "The candidate struggled to provide clear and complete solutions to basic programming problems.",
+      "The candidate's GitHub profile shows limited activity and no followers or public gists."
+    ],
+    "key_strengths": [
+      "The candidate has some basic knowledge of Python programming.",
+      "The candidate has recently pushed some code to their GitHub repository, indicating some level of activity.",
+      "Recent push events indicate some activity on GitHub"
+    ],
+    "key_risks": [
+      "The candidate may require significant training and guidance to become proficient in programming.",
+      "The candidate's lack of experience and project portfolio may impact their ability to contribute to complex projects.",
+      "Limited problem-solving skills",
+      "Lack of experience with Python and programming fundamentals",
+      "Unclear communication and incomplete responses"
+    ]
+  },
+  "agent_decisions": {
+    "tech_lead": {
+      "score": 0.1,
+      "weight": 0.45,
+      "reasoning": [
+        "The candidate has limited experience and project portfolio.",
+        "The candidate struggled to provide clear and complete solutions to basic programming problems.",
+        "The candidate's GitHub profile shows limited activity and no followers or public gists."
+      ],
+      "strengths": [
+        "The candidate has some basic knowledge of Python programming.",
+        "The candidate has recently pushed some code to their GitHub repository, indicating some level of activity."
+      ],
+      "risks": [
+        "The candidate may require significant training and guidance to become proficient in programming.",
+        "The candidate's lack of experience and project portfolio may impact their ability to contribute to complex projects.",
+        "The candidate's limited online presence may indicate a lack of engagement with the programming community."
+      ]
+    },
+    "hr": {
+      "score": 0.1,
+      "weight": 0.2,
+      "reasoning": [
+        "The candidate's answers lacked clarity and completeness",
+        "The candidate was unable to provide clear Python functions to solve basic programming problems",
+        "The candidate's responses seemed incomplete and unclear"
+      ],
+      "strengths": [
+        "Recent push events indicate some activity on GitHub",
+        "The candidate has listed Python as one of their languages"
+      ],
+      "risks": [
+        "Limited experience and project portfolio",
+        "Lack of clear and complete solutions to basic programming problems",
+        "Limited online presence"
+      ]
+    },
+    "manager": {
+      "score": 0.1,
+      "weight": 0.35,
+      "reasoning": [
+        "The candidate has limited experience and project portfolio",
+        "The candidate struggled to provide clear and complete solutions to basic programming problems",
+        "The candidate's responses seemed incomplete and unclear"
+      ],
+      "strengths": [
+        "Recent push events indicate some activity on GitHub",
+        "The candidate has listed Python as one of their languages",
+        "The candidate has a basic understanding of programming concepts"
+      ],
+      "risks": [
+        "Limited problem-solving skills",
+        "Lack of experience with Python and programming fundamentals",
+        "Unclear communication and incomplete responses"
+      ]
+    }
+  },
+  "aggregator": {
+    "weights": {
+      "tech_lead": 0.45,
+      "hr": 0.2,
+      "manager": 0.35
+    },
+    "formula": "weighted_average(tech_lead, hr, manager)"
+  },
+  "final_score": 0.1,
+  "final_priority": "LOW",
+  "reasoning": [
+    "The candidate has limited experience and project portfolio.",
+    "The candidate struggled to provide clear and complete solutions to basic programming problems.",
+    "The candidate's GitHub profile shows limited activity and no followers or public gists."
+  ]
+}

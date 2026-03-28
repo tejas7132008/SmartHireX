@@ -1,0 +1,206 @@
+{
+  "candidate_info": {
+    "name": "Aarav Sharma",
+    "education": "B.Tech Computer Science",
+    "experience_years": 4.0,
+    "summary": "Aarav Sharma is a skilled computer science professional with 4 years of experience and a strong background in Python, data pipelines, and MLOps."
+  },
+  "github_signals": {
+    "github_username": "pallets",
+    "repo_count": 17,
+    "languages": [
+      "Python",
+      "HTML",
+      "CSS"
+    ],
+    "recent_commits_30d": 0,
+    "push_events_30d": 0,
+    "followers": 2244,
+    "public_gists": 0
+  },
+  "interview_transcript": [
+    {
+      "question": "Can you explain how you would optimize the performance of a distributed Python data pipeline, considering factors such as data partitioning, node communication, and fault tolerance?",
+      "focus_area": "Distributed Systems and Data Pipelines",
+      "answer": "In Python I clarify constraints, implement a clean solution with type hints, handle edge cases, explain complexity, and validate with tests. I can compare alternative data structures and discuss trade-offs.",
+      "evaluation": {
+        "depth": 0.2,
+        "clarity": 0.6,
+        "confidence": 0.4,
+        "follow_up_needed": true,
+        "recommended_focus": "Distributed Systems and Performance Optimization",
+        "evaluation_notes": [
+          "The candidate's answer lacks specific details on optimizing distributed Python data pipelines.",
+          "The candidate mentions general best practices for coding in Python, but does not address the question directly.",
+          "The candidate's experience in building distributed data pipelines is not clearly connected to their answer."
+        ]
+      }
+    },
+    {
+      "question": "How would you design a fault-tolerant data processing workflow in a distributed Python environment, considering node failures, data replication, and job scheduling, and what trade-offs would you make between consistency, availability, and performance?",
+      "focus_area": "Distributed Systems, Data Processing, and Fault Tolerance",
+      "answer": "In Python I clarify constraints, implement a clean solution with type hints, handle edge cases, explain complexity, and validate with tests. I can compare alternative data structures and discuss trade-offs.",
+      "evaluation": {
+        "depth": 0.1,
+        "clarity": 0.4,
+        "confidence": 0.3,
+        "follow_up_needed": true,
+        "recommended_focus": "Distributed Systems, Data Processing, and Fault Tolerance",
+        "evaluation_notes": [
+          "The candidate's answer does not directly address the question about designing a fault-tolerant data processing workflow.",
+          "The candidate mentions general best practices for coding in Python, but does not provide specific details on distributed systems or data processing.",
+          "The candidate's experience in building distributed data pipelines and MLOps deployment tooling is not clearly connected to their answer."
+        ]
+      }
+    },
+    {
+      "question": "Given your experience with FastAPI and MLOps deployment tooling, can you describe how you would implement a scalable and secure API for serving machine learning models in a production environment, considering factors such as model versioning, data validation, and authentication?",
+      "focus_area": "MLOps, FastAPI, and API Design",
+      "answer": "In Python I clarify constraints, implement a clean solution with type hints, handle edge cases, explain complexity, and validate with tests. I can compare alternative data structures and discuss trade-offs.",
+      "evaluation": {
+        "depth": 0.1,
+        "clarity": 0.4,
+        "confidence": 0.3,
+        "follow_up_needed": true,
+        "recommended_focus": "API Design, Security, and Scalability",
+        "evaluation_notes": [
+          "The candidate's answer does not directly address the question about implementing a scalable and secure API for serving machine learning models.",
+          "The candidate mentions general best practices for coding in Python, but does not provide specific details on API design, security, or scalability.",
+          "The candidate's experience in building distributed data pipelines and MLOps deployment tooling is not clearly connected to their answer."
+        ]
+      }
+    },
+    {
+      "question": "Suppose you're tasked with integrating a new machine learning model into your existing MLOps pipeline, which is built using FastAPI and Python. The model requires a specific version of a library that conflicts with the version used by another model in the pipeline. How would you resolve this dependency conflict while ensuring the pipeline remains scalable, secure, and efficient?",
+      "focus_area": "MLOps, Dependency Management, and Pipeline Optimization",
+      "answer": "In Python I clarify constraints, implement a clean solution with type hints, handle edge cases, explain complexity, and validate with tests. I can compare alternative data structures and discuss trade-offs.",
+      "evaluation": {
+        "depth": 0.1,
+        "clarity": 0.4,
+        "confidence": 0.3,
+        "follow_up_needed": true,
+        "recommended_focus": "Dependency Management and MLOps Pipeline Optimization",
+        "evaluation_notes": [
+          "The candidate's answer does not directly address the question about resolving dependency conflicts in an MLOps pipeline.",
+          "The candidate mentions general best practices for coding in Python, but does not provide specific details on dependency management or MLOps pipeline optimization.",
+          "The candidate's experience in building distributed data pipelines and MLOps deployment tooling is not clearly connected to their answer."
+        ]
+      }
+    },
+    {
+      "question": "Design a data validation framework for a distributed Python data pipeline that can handle various data formats and sources, including CSV, JSON, and database queries, and describe how you would implement data quality checks, handle errors, and integrate this framework with your existing MLOps pipeline.",
+      "focus_area": "Data Validation, Data Quality, and MLOps",
+      "answer": "In Python I clarify constraints, implement a clean solution with type hints, handle edge cases, explain complexity, and validate with tests. I can compare alternative data structures and discuss trade-offs.",
+      "evaluation": {
+        "depth": 0.1,
+        "clarity": 0.4,
+        "confidence": 0.3,
+        "follow_up_needed": true,
+        "recommended_focus": "Data Validation Framework and Distributed Data Pipelines",
+        "evaluation_notes": [
+          "The candidate's answer lacks specific details on designing a data validation framework for a distributed Python data pipeline.",
+          "The candidate mentions general best practices for coding in Python, but does not address the question directly.",
+          "The candidate's experience in building distributed data pipelines and MLOps deployment tooling is not clearly connected to their answer."
+        ]
+      }
+    }
+  ],
+  "interview_summary": {
+    "avg_depth": 0.12,
+    "avg_clarity": 0.44,
+    "avg_confidence": 0.32,
+    "question_count": 5
+  },
+  "ai_summary": {
+    "executive_summary": "Aarav Sharma is a skilled computer science professional with 4 years of experience and a strong background in Python, data pipelines, and MLOps.",
+    "recommendation_reasoning": [
+      "The candidate has a strong background in Python, data pipelines, and MLOps, with 4 years of experience.",
+      "The candidate's GitHub profile shows a good number of repositories and followers, indicating a strong online presence.",
+      "The candidate's education in computer science supports their technical abilities."
+    ],
+    "key_strengths": [
+      "Experience in building distributed data pipelines and MLOps deployment tooling",
+      "Strong foundation in computer science, with a B.Tech degree and 4 years of experience",
+      "High skill score, indicating a strong proficiency in relevant technical skills"
+    ],
+    "key_risks": [
+      "Lack of specific details in answers to interview questions",
+      "No recent activity on GitHub profile, indicating a lack of ongoing engagement with the developer community",
+      "Relatively low communication score, which may indicate difficulties in effectively conveying technical ideas"
+    ]
+  },
+  "agent_decisions": {
+    "tech_lead": {
+      "score": 0.6,
+      "weight": 0.45,
+      "reasoning": [
+        "The candidate has a strong background in Python, data pipelines, and MLOps, with 4 years of experience.",
+        "The candidate's GitHub profile shows a good number of repositories and followers, indicating a strong online presence.",
+        "The candidate's education in computer science supports their technical abilities."
+      ],
+      "strengths": [
+        "The candidate has experience in building distributed data pipelines and MLOps deployment tooling, indicating strong technical skills.",
+        "The candidate's skill score is high, indicating a strong foundation in relevant technical areas.",
+        "The candidate's project score is also high, indicating a ability to apply their skills to real-world projects."
+      ],
+      "risks": [
+        "The candidate's answers to technical questions lacked specific details and did not directly address the questions.",
+        "The candidate's GitHub profile shows no recent activity, which may indicate a lack of current engagement with the developer community.",
+        "The candidate's communication score is relatively low, which may impact their ability to effectively collaborate with team members."
+      ]
+    },
+    "hr": {
+      "score": 0.6,
+      "weight": 0.2,
+      "reasoning": [
+        "The candidate has a strong background in Python, data pipelines, and MLOps.",
+        "The candidate's experience in building distributed data pipelines and MLOps deployment tooling is relevant to the position.",
+        "The candidate's GitHub profile shows a good number of repositories and followers."
+      ],
+      "strengths": [
+        "The candidate has 4 years of experience in computer science.",
+        "The candidate has a strong technical skill set, including Python, data pipelines, and MLOps.",
+        "The candidate's education in computer science supports their technical abilities."
+      ],
+      "risks": [
+        "The candidate's answers lack specific details and do not directly address the questions.",
+        "The candidate's experience is not clearly connected to their answers.",
+        "The candidate's GitHub profile lacks recent activity."
+      ]
+    },
+    "manager": {
+      "score": 0.6,
+      "weight": 0.35,
+      "reasoning": [
+        "The candidate has a strong background in Python, data pipelines, and MLOps, with 4 years of experience.",
+        "The candidate's GitHub profile shows a good number of repositories and followers, indicating a strong online presence.",
+        "The candidate's education in computer science supports their technical abilities."
+      ],
+      "strengths": [
+        "The candidate has experience in building distributed data pipelines and MLOps deployment tooling, indicating strong technical skills.",
+        "The candidate has a strong foundation in computer science, with a B.Tech degree and 4 years of experience.",
+        "The candidate's skill score is high, indicating a strong proficiency in relevant technical skills."
+      ],
+      "risks": [
+        "The candidate's answers to interview questions lacked specific details and did not directly address the questions.",
+        "The candidate's GitHub profile lacks recent activity, which may indicate a lack of ongoing engagement with the developer community.",
+        "The candidate's communication score is relatively low, which may indicate difficulties in effectively conveying technical ideas."
+      ]
+    }
+  },
+  "aggregator": {
+    "weights": {
+      "tech_lead": 0.45,
+      "hr": 0.2,
+      "manager": 0.35
+    },
+    "formula": "weighted_average(tech_lead, hr, manager)"
+  },
+  "final_score": 0.6,
+  "final_priority": "MEDIUM",
+  "reasoning": [
+    "The candidate has a strong background in Python, data pipelines, and MLOps, with 4 years of experience.",
+    "The candidate's GitHub profile shows a good number of repositories and followers, indicating a strong online presence.",
+    "The candidate's education in computer science supports their technical abilities."
+  ]
+}

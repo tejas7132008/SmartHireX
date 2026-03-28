@@ -1,0 +1,226 @@
+{
+  "candidate_info": {
+    "name": "SUNKOJU  MAHESHWARA CHARY",
+    "education": "BTECH",
+    "experience_years": 0.0,
+    "summary": "Recent graduate with strong educational background and some experience with programming languages, but limited professional experience and recent GitHub activity."
+  },
+  "github_signals": {
+    "github_username": "maheshmahi224",
+    "repo_count": 38,
+    "languages": [
+      "JavaScript",
+      "TypeScript",
+      "Python",
+      "Java",
+      "Dart"
+    ],
+    "recent_commits_30d": 0,
+    "push_events_30d": 2,
+    "followers": 2,
+    "public_gists": 0
+  },
+  "interview_transcript": [
+    {
+      "question": "Can you explain how you handled errors and exceptions in your AI-powered LinkedIn posting automation project, and what measures you took to ensure the reliability and robustness of the custom-built AI agent?",
+      "focus_area": "Error Handling and Reliability",
+      "answer": "i handle using network and console based o[ptimization techniques",
+      "evaluation": {
+        "depth": 0.2,
+        "clarity": 0.4,
+        "confidence": 0.6,
+        "follow_up_needed": true,
+        "recommended_focus": "Error Handling and Exception Management",
+        "evaluation_notes": [
+          "The candidate's answer lacks specificity and detail.",
+          "The candidate mentions using 'network and console based optimization techniques', but does not explain how these techniques are used for error handling and exception management.",
+          "The candidate does not provide any information about the measures taken to ensure the reliability and robustness of the custom-built AI agent.",
+          "The candidate's answer suggests a lack of understanding of the importance of error handling and exception management in AI-powered projects."
+        ]
+      }
+    },
+    {
+      "question": "Can you provide a specific example of how you implemented error handling in your AI-powered LinkedIn posting automation project, such as try-catch blocks or error callbacks, and how you tested the robustness of the custom-built AI agent to ensure it could recover from potential errors or exceptions?",
+      "focus_area": "Error Handling and Exception Management",
+      "answer": "the system uses MERN stack based call back features and TOOPS exception handling",
+      "evaluation": {
+        "depth": 0.1,
+        "clarity": 0.3,
+        "confidence": 0.5,
+        "follow_up_needed": true,
+        "recommended_focus": "Error Handling and Exception Management",
+        "evaluation_notes": [
+          "The candidate's answer lacks specificity and detail about error handling in the AI-powered LinkedIn posting automation project.",
+          "The mention of 'MERN stack based call back features and TOOPS exception handling' is unclear and does not provide sufficient information about the implementation.",
+          "The candidate does not provide any information about testing the robustness of the custom-built AI agent.",
+          "The answer suggests a limited understanding of error handling and exception management in the context of the project."
+        ]
+      }
+    },
+    {
+      "question": "Can you explain the trade-offs you considered when choosing the MERN stack for your AI-powered LinkedIn posting automation project, particularly in terms of scalability, performance, and maintainability, and how you plan to address potential limitations or bottlenecks in the custom-built AI agent?",
+      "focus_area": "System Design and Architecture",
+      "answer": "its scable because the tech stack we used and teh cron jobs we implemented",
+      "evaluation": {
+        "depth": 0.1,
+        "clarity": 0.2,
+        "confidence": 0.4,
+        "follow_up_needed": true,
+        "recommended_focus": "Scalability, Performance, and Maintainability",
+        "evaluation_notes": [
+          "The candidate's answer lacks specificity and detail about the trade-offs considered when choosing the MERN stack.",
+          "The mention of 'cron jobs' is unclear and does not provide sufficient information about scalability, performance, and maintainability.",
+          "The candidate does not provide any information about potential limitations or bottlenecks in the custom-built AI agent.",
+          "The answer suggests a limited understanding of the MERN stack and its implications for the project."
+        ]
+      }
+    },
+    {
+      "question": "How do you plan to optimize the performance of your custom-built AI agent in the AI-powered LinkedIn posting automation project, considering factors such as data processing, model training, and API integration, and what strategies would you employ to ensure the agent can handle a large volume of posts and user interactions?",
+      "focus_area": "Performance Optimization and Scalability",
+      "answer": "using retreval argumentaion generations",
+      "evaluation": {
+        "depth": 0.1,
+        "clarity": 0.2,
+        "confidence": 0.3,
+        "follow_up_needed": true,
+        "recommended_focus": "Performance Optimization and AI Agent Development",
+        "evaluation_notes": [
+          "The candidate's answer lacks specificity and detail about optimizing the performance of the custom-built AI agent.",
+          "The mention of 'retrieval argumentation generations' is unclear and does not provide sufficient information about the strategies for optimizing performance.",
+          "The candidate does not provide any information about how they plan to handle a large volume of posts and user interactions.",
+          "The answer suggests a limited understanding of performance optimization and AI agent development in the context of the project."
+        ]
+      }
+    },
+    {
+      "question": "Can you design a high-level architecture for a scalable and fault-tolerant AI-powered LinkedIn posting automation system, considering factors such as load balancing, data storage, and API integration, and how would you ensure the system can handle a sudden increase in user traffic or post volume?",
+      "focus_area": "System Design and Architecture",
+      "answer": "yes i use rate limiting projection",
+      "evaluation": {
+        "depth": 0.1,
+        "clarity": 0.2,
+        "confidence": 0.3,
+        "follow_up_needed": true,
+        "recommended_focus": "System Design and Architecture",
+        "evaluation_notes": [
+          "The candidate's answer lacks specificity and detail about designing a high-level architecture for a scalable and fault-tolerant AI-powered LinkedIn posting automation system.",
+          "The mention of 'rate limiting projection' is unclear and does not provide sufficient information about load balancing, data storage, and API integration.",
+          "The candidate does not provide any information about how they would ensure the system can handle a sudden increase in user traffic or post volume.",
+          "The answer suggests a limited understanding of system design and architecture in the context of the project."
+        ]
+      }
+    }
+  ],
+  "interview_summary": {
+    "avg_depth": 0.12,
+    "avg_clarity": 0.26,
+    "avg_confidence": 0.42,
+    "question_count": 5
+  },
+  "ai_summary": {
+    "executive_summary": "The candidate has a strong educational background and experience with multiple programming languages, but lacks professional experience and recent GitHub activity. The candidate's communication skills are weak, and their understanding of error handling, exception management, and system design is limited.",
+    "recommendation_reasoning": [
+      "The candidate has a strong foundation in programming languages and software development.",
+      "The candidate has experience with AI and automation, which is relevant to the project.",
+      "The candidate's recent GitHub activity is limited, which may indicate a lack of continuous learning and improvement.",
+      "The candidate's understanding of error handling, exception management, and system design is limited."
+    ],
+    "key_strengths": [
+      "Strong educational background with a B.Tech degree",
+      "Experience with multiple programming languages, including JavaScript, TypeScript, Python, Java, and Dart",
+      "Experience with AI-powered project",
+      "GitHub account with 38 repositories, indicating some experience with coding and version control"
+    ],
+    "key_risks": [
+      "Limited professional experience may impact ability to work on complex projects",
+      "Recent GitHub activity is limited, which may indicate a lack of continuous learning and improvement",
+      "The candidate's communication skills are weak, which may affect teamwork and collaboration",
+      "The candidate's understanding of error handling, exception management, and system design is limited"
+    ]
+  },
+  "agent_decisions": {
+    "tech_lead": {
+      "score": 0.4,
+      "weight": 0.45,
+      "reasoning": [
+        "The candidate has a strong educational background with a B.Tech degree.",
+        "The candidate has experience with multiple programming languages, including JavaScript, TypeScript, Python, Java, and Dart.",
+        "The candidate's answers to technical questions lacked specificity and detail.",
+        "The candidate's recent GitHub activity is limited, with only 2 push events in the last 30 days."
+      ],
+      "strengths": [
+        "The candidate has a strong foundation in programming languages and software development.",
+        "The candidate has experience with AI and automation, which is relevant to the project.",
+        "The candidate has a GitHub account with 38 repositories, indicating some experience with coding and version control.",
+        "The candidate is confident in their abilities, but may need guidance and support to grow."
+      ],
+      "risks": [
+        "Limited professional experience may impact ability to work on complex projects.",
+        "Recent GitHub activity is limited, which may indicate a lack of continuous learning and improvement.",
+        "The candidate's communication skills are weak, which may affect teamwork and collaboration.",
+        "The candidate's understanding of error handling, exception management, and system design is limited."
+      ]
+    },
+    "hr": {
+      "score": 0.4,
+      "weight": 0.2,
+      "reasoning": [
+        "The candidate's answers lack specificity and detail about their experience and projects.",
+        "The candidate's communication skills are limited, with low clarity and confidence scores.",
+        "The candidate's GitHub activity is limited, with only 2 push events in the last 30 days."
+      ],
+      "strengths": [
+        "Strong educational background with a B.Tech degree.",
+        "Experience with multiple programming languages, including JavaScript, TypeScript, Python, Java, and Dart.",
+        "GitHub account with 38 repositories, indicating some experience with coding and version control."
+      ],
+      "risks": [
+        "Limited professional experience and recent GitHub activity.",
+        "Lack of understanding of error handling and exception management.",
+        "Limited understanding of system design and architecture."
+      ]
+    },
+    "manager": {
+      "score": 0.4,
+      "weight": 0.35,
+      "reasoning": [
+        "The candidate has a strong educational background with a B.Tech degree.",
+        "The candidate has experience with multiple programming languages.",
+        "The candidate's recent GitHub activity is limited.",
+        "The candidate's project experience is limited to a single AI-powered LinkedIn posting automation project.",
+        "The candidate's answers lack specificity and detail."
+      ],
+      "strengths": [
+        "Strong educational background.",
+        "Experience with multiple programming languages.",
+        "Experience with AI-powered project.",
+        "GitHub account with 38 repositories.",
+        "Some experience with coding and version control."
+      ],
+      "risks": [
+        "Limited professional experience.",
+        "Limited recent GitHub activity.",
+        "Lack of specificity and detail in answers.",
+        "Limited understanding of error handling and exception management.",
+        "Limited understanding of system design and architecture."
+      ]
+    }
+  },
+  "aggregator": {
+    "weights": {
+      "tech_lead": 0.45,
+      "hr": 0.2,
+      "manager": 0.35
+    },
+    "formula": "weighted_average(tech_lead, hr, manager)"
+  },
+  "final_score": 0.4,
+  "final_priority": "LOW",
+  "reasoning": [
+    "The candidate has a strong foundation in programming languages and software development.",
+    "The candidate has experience with AI and automation, which is relevant to the project.",
+    "The candidate's recent GitHub activity is limited, which may indicate a lack of continuous learning and improvement.",
+    "The candidate's understanding of error handling, exception management, and system design is limited."
+  ]
+}
